@@ -16,7 +16,7 @@ import java.util.List;
 public class SecureController {
     private final UserEntryRepository userEntryRepository;
     @GetMapping("/users")
-    public ResponseEntity<List<UserEntry>> greeting(){
+    public ResponseEntity<List<UserEntry>> findAll(){
         return ResponseEntity.ok(userEntryRepository.findAll());
     }
 }

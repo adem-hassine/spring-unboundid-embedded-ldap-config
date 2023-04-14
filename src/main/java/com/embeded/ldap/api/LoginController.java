@@ -22,7 +22,7 @@ public class LoginController {
     private final JwtUtils jwtUtils;
 
     @PostMapping(UtilityConstants.LOGIN_ENDPOINT)
-    public AuthenticationResponse greeting(@RequestBody AuthenticationRequest authenticationRequest) {
+    public AuthenticationResponse login(@RequestBody AuthenticationRequest authenticationRequest) {
         UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(authenticationRequest.getUsername(),
                 authenticationRequest.getPassword());
          authenticationManager.authenticate(usernamePasswordAuthenticationToken);
