@@ -1,0 +1,207 @@
+dn: OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalUnit
+objectClass: top
+instanceType: 4
+objectCategory: CN=Organizational-Unit,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+ou: BSS
+distinguishedName: OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+name: BSS
+uSNChanged: 328878
+whenChanged: 20220126212958.0Z
+whenCreated: 20220126212958.0Z
+
+dn: CN=user 1,OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: user 1
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+accountExpires: 9223372036854775807
+badPasswordTime: 132930531944820999
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+department: BEST
+displayName: user 1
+distinguishedName: CN=user 1,OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+givenName: user
+lastLogoff: 0
+lastLogon: 132930532004195682
+lastLogonTimestamp: 133044497566993032
+logonCount: 0
+name: user 1
+objectSid:: AQUAAAAAAAUVAAAAqUCcFR9rgJeX3P0sAUoAAA==
+primaryGroupID: 513
+pwdLastSet: 132877062506183762
+sAMAccountName: user.1
+userPassword: strongAzerty
+sAMAccountType: 805306368
+sn: 1
+title: Director
+userAccountControl: 66048
+userPrincipalName: user.1@dcdev.dev
+uSNChanged: 427563
+uSNCreated: 328884
+whenChanged: 20220808162916.0Z
+whenCreated: 20220126213050.0Z
+
+dn: CN=user 2,OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: user 2
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+accountExpires: 9223372036854775807
+badPasswordTime: 0
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+department: BEST
+displayName: user 2
+distinguishedName: CN=user 2,OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+givenName: user
+lastLogoff: 0
+lastLogon: 0
+lastLogonTimestamp: 133026564300149048
+logonCount: 0
+manager: CN=user3,OU=BSS,DC=dcdev,DC=dev
+name: user 2
+objectSid:: AQUAAAAAAAUVAAAAqUCcFR9rgJeX3P0sAkoAAA==
+primaryGroupID: 513
+pwdLastSet: 132877062863214430
+sAMAccountName: user.2
+userPassword: strongAzerty
+sAMAccountType: 805306368
+sn: 2
+title: Department Manager
+userAccountControl: 66048
+userPrincipalName: user.2@dcdev.dev
+uSNChanged: 418663
+uSNCreated: 328895
+whenChanged: 20220718222030.0Z
+whenCreated: 20220126213126.0Z
+
+dn: CN=user 3,OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: user 3
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+accountExpires: 9223372036854775807
+badPasswordTime: 0
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+department: BEST
+displayName: user 3
+distinguishedName: CN=user 3,OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+givenName: user
+lastLogoff: 0
+lastLogon: 0
+lastLogonTimestamp: 133026564391711579
+logonCount: 0
+manager: CN=user1,OU=BSS,DC=dcdev,DC=dev
+name: user 3
+objectSid:: AQUAAAAAAAUVAAAAqUCcFR9rgJeX3P0sA0oAAA==
+primaryGroupID: 513
+pwdLastSet: 132877063168840219
+sAMAccountName: user.3
+userPassword: strongAzerty
+sAMAccountType: 805306368
+sn: 3
+title: Department Manager
+userAccountControl: 66048
+userPrincipalName: user.3@dcdev.dev
+uSNChanged: 418664
+uSNCreated: 328908
+whenChanged: 20220718222039.0Z
+whenCreated: 20220126213156.0Z
+
+dn: CN=user 4,OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: user 4
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+accountExpires: 9223372036854775807
+badPasswordTime: 132902155303795874
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+department: BEST
+displayName: user 4
+distinguishedName: CN=user 4,OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+givenName: user
+lastLogoff: 0
+lastLogon: 132902155328796156
+lastLogonTimestamp: 133039445482080175
+logonCount: 0
+manager: CN=user2,OU=BSS,DC=dcdev,DC=dev
+name: user 4
+objectSid:: AQUAAAAAAAUVAAAAqUCcFR9rgJeX3P0sBEoAAA==
+primaryGroupID: 513
+pwdLastSet: 132877063318371532
+sAMAccountName: user.4
+userPassword: strongAzerty
+sAMAccountType: 805306368
+sn: 4
+title: Software Developer
+userAccountControl: 66048
+userPrincipalName: user.4@dcdev.dev
+uSNChanged: 423784
+uSNCreated: 328921
+whenChanged: 20220802200908.0Z
+whenCreated: 20220126213211.0Z
+
+dn: CN=user 5,OU=BSS,DC=dcdev,DC=dev
+objectClass: organizationalPerson
+objectClass: person
+objectClass: top
+objectClass: user
+cn: user 5
+instanceType: 4
+objectCategory: CN=Person,CN=Schema,CN=Configuration,DC=dcdev,DC=dev
+accountExpires: 9223372036854775807
+badPasswordTime: 0
+badPwdCount: 0
+codePage: 0
+countryCode: 0
+department: BEST
+displayName: user 5
+distinguishedName: CN=user 5,OU=BSS,DC=dcdev,DC=dev
+dSCorePropagationData: 16010101000000.0Z
+givenName: user
+lastLogoff: 0
+lastLogon: 0
+lastLogonTimestamp: 133026510648430616
+logonCount: 0
+manager: CN=user3,OU=BSS,DC=dcdev,DC=dev
+name: user 5
+objectSid:: AQUAAAAAAAUVAAAAqUCcFR9rgJeX3P0sBUoAAA==
+primaryGroupID: 513
+pwdLastSet: 132877063539152614
+sAMAccountName: user.5
+userPassword: strongAzerty
+sAMAccountType: 805306368
+sn: 5
+title: Software Developer
+userAccountControl: 66048
+userPrincipalName: user.5@dcdev.dev
+uSNChanged: 418627
+uSNCreated: 328932
+whenChanged: 20220718205104.0Z
+whenCreated: 20220126213233.0Z
+
